@@ -2,7 +2,7 @@
   "name": "row4",
   "private": true,
   "type": "module",
-  "homepage": "https://sebwib.github.io/4inarow",
+  "homepage": "https://sebwib.github.io/4inarow/",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",

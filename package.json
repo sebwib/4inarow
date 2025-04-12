@@ -4,13 +4,14 @@
   "type": "module",
   "homepage": "https://sebwib.github.io/4inarow/",
   "scripts": {
-    "build": "react-router build",
+    "build": "vite build",
     "dev": "react-router dev",
     "host": "react-router dev --host",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-router/node": "^7.5.0",
